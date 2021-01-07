@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+/* HOME PAGE */
+.about-me{
+    margin: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.description {
+   margin-left: 50px;
+}
+.profilepic{
+    width: 200px;
+}
+/* CONTACT US PAGE */
+
+
