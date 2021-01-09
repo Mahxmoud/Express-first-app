@@ -1,23 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body {
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 /* HOME PAGE */
-.about-me{
+
+.about-me {
     margin: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
+
 .description {
-   margin-left: 50px;
+    margin-left: 50px;
 }
-.profilepic{
+
+.profilepic {
     width: 200px;
 }
+
+
+/* OUR SERVICES PAGE */
+
+.card, .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px
+}
+.card{
+box-shadow: 4px 10px 16px #838383;
+
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.card-img-top {
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+
 /* CONTACT US PAGE */
 
-
+.contact-info{
+   margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contact-img>img{
+    width: 360px;
+}
+.contact-form{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+}
